@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JetMe</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" media="all" href="media/css/fonts.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="media/css/reset.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="media/css/style.css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="media/js/jcarousellite_1.0.1.js"></script>
+    <script type="text/javascript" src="media/js/tiny.js"></script>
+    <script type="text/javascript" src="media/js/main.js"></script>
+
+
+</head>
+<body>
+<div id="container">
+<div id="header" class="block">
+    <a class="logo" href="/"><img src="media/i/logo.jpg" alt="Веб-маркет jetme"></a>
+
+    <div class="center">
+        <div class="phone">Звоните: <strong>8-921-455-66-77</strong></div>
+        <div class="social">
+            <a class="fb" href="#"><i></i></a>
+            <a class="tw" href="#"><i></i></a>
+            <a class="vk" href="#"><i></i></a>
+            <a class="yt" href="#"><i></i></a>
+        </div>
+        <div class="clr"></div>
+        <div class="search">
+            <input type="text" placeholder="Поиск...">
+
+            <div class="select"><a href="#" class="drop">Везде <i class="arr-down"></i></a>
+                <ul class="list">
+                    <li><a href="#">Товары</a></li>
+                    <li><a href="#">Рецепты</a></li>
+                    <li><a href="#">Магазины</a></li>
+                </ul>
+            </div>
+            <a class="submit circle" href="#"><i></i></a>
+        </div>
+    </div>
+    <div class="right">
+        <ul>
+            <li><a href="#">Вход</a></li>
+            <li class="reg"><a href="#">Регистрация</a></li>
+            <li><a href="#">Помощь <i class="arr-down"></i></a>
+                <ul>
+                    <li><a href="#">Вход на сайт</a></li>
+                    <li><a href="#">Вход</a></li>
+                    <li><a href="#">Способы доставки</a></li>
+                    <li><a href="#">Помощь</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="clr"></div>
+        <a href="#" class="cart"><i></i> Корзина <span>(5)</span> 150 000 <em>руб.</em></a>
+    </div>
+</div>
+<div id="main" class="block">
+<div id="sidebar" class="fll">
+    <div class="search">
+        <input type="text" placeholder="Поиск по каталогу">
+
+        <div class="circle"><i></i>
+            <ul class="list">
+                <li><a href="#">Все</a></li>
+                <li><a href="#">Магнит</a></li>
+                <li><a href="#">Пятерочка</a></li>
+                <li><a href="#">Гулливер</a></li>
+                <li><a href="#">Эльдорадо</a></li>
+                <li><a href="#">М-Видео</a></li>
+                <li><a href="#">IKEA</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="filter">
+        <i></i>
+        Товары магазина: М-Видео
+    </div>
+
+    <ul id="menu">
+        <li><a href="#"><i></i>Товары для дачи и сада</a></li>
+        <li><a href="#"><i></i>Строительные материалы</a></li>
+        <li class="active"><a href="#"><i></i>Отделочные материалы</a>
+            <ul>
+                <li><a href="#">Напольные покрытия</a></li>
+                <li><a href="#">Водоснабжение</a></li>
+                <li class="active"><a href="#">Электротовары</a>
+                    <ul>
+                        <li><a href="#">Напольные покрытия</a></li>
+                        <li><a href="#">Водоснабжение</a></li>
+                        <li><a href="#">Электротовары</a></li>
+                        <li><a href="#">Сувениры, игрушки</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Сувениры, игрушки</a></li>
+                <li><a href="#">Посуда, текстиль</a></li>
+            </ul>
+        </li>
+        <li><a href="#"><i></i>Напольные покрытия</a></li>
+        <li><a href="#"><i></i>Водоснабжение</a></li>
+        <li><a href="#"><i></i>Электротовары</a></li>
+        <li><a href="#"><i></i>Сувениры, игрушки</a></li>
+        <li><a href="#"><i></i>Посуда, текстиль</a></li>
+        <li><a href="#"><i></i>ОСАГО</a></li>
+    </ul>
+    <div id="new">
+        <h4>Новинки</h4>
+
+        <div class="product">
+            <a href="#"><img src="media/temp/tovar1.jpg" alt="" width="208" height="208"></a>
+            <em>Товары для дома</em>
+            <a href="#">Набор посуды</a>
+
+            <div class="price">5 790 <span>руб.</span></div>
+            <a class="buy" href="#"><i></i></a>
+        </div>
+    </div>
+
+</div>
+<div id="content" class="flr">
+
+<div class="drop pages">
+
+    <div class="label">Показывать по:</div>
+    <ul>
+        <li><a href="#">15 <i></i></a>
+            <ul>
+                <li class="arr"></li>
+                <li><a href="#">30</a></li>
+                <li><a href="#">45</a></li>
+                <li class="last"><a href="#">60</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+<div class="drop">
+    <div class="label">Сортировать по:</div>
+    <ul>
+        <li><a href="#">Цене <i></i></a>
+            <ul>
+                <li class="arr"></li>
+                <li><a href="#">Продавцу</a></li>
+                <li><a href="#">Популярности</a></li>
+                <li class="last"><a href="#">Названию</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+<h1>сувениры, игрушки</h1>
+
+<div class="clr"></div>
+
+<div class="shop">
+    <div class="img"><a href="#"><img src="media/temp/mvideo.jpg" alt=""></a></div>
+    <div class="info">
+        <div class="name"><a href="#">М.Видео</a></div>
+        <p>Головной офис: г. Ульяновск, ул.Гончарова, 21, ТЦ "ЦУМ"</p>
+        <p>Телефон: 8-800-XX-XX</p>
+    </div>
+
+</div>
+
+<div class="product-list">
+    <div class="row">
+        <div class="product">
+            <div class="badges">
+                <i class="sale"></i>
+            </div>
+            <div class="img">
+                <div class="container-slides">
+                    <div class="s-prev"></div>
+                    <div class="s-next"></div>
+                    <ul>
+                        <li><img src="media/temp/prod-1.jpg" alt=""></li>
+                        <li><img src="media/temp/prod-2.jpg" alt=""></li>
+                        <li><img src="media/temp/prod-3.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <a class="name" href="#">Смеситель для ванны GROHE универсальный</a>
+
+            <div class="price">
+                <div class="old">35 000 руб.</div>
+                <strong>590 <span>руб.</span></strong>
+            </div>
+            <a href="#" class="rating five-2"><i></i> (4)</a>
+
+            <div class="clr"></div>
+            <div class="seller">
+                Продавец<br>
+                <a href="#">М-Видео</a>
+            </div>
+            <div class="actions">
+                <a class="tolist tip" alt="К рецепту" href="#"><i></i></a>
+                <a class="tofavorite tip" alt="В избранное" href="#"><i></i></a>
+                <a class="tocart tip" alt="В корзину" href="#"><i></i></a>
+            </div>
+            <a class="fast-view" href="#">Быстрый просмотр</a>
+        </div>
+        <div class="product">
+            <div class="badges">
+                <i class="gift"></i>
+                <i class="new"></i>
+            </div>
+            <div class="img">
+                <div class="container-slides">
+                    <div class="s-prev"></div>
+                    <div class="s-next"></div>
+                    <ul>
+                        <li><img src="media/temp/prod-4.jpg" alt=""></li>
+                        <li><img src="media/temp/prod-5.jpg" alt=""></li>
+                        <li><img src="media/temp/prod-6.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <a class="name" href="#">Лучшему менеджеру</a>
+
+            <div class="price">
+                <div class="old">35 000 руб.</div>
+                <strong>590 <span>руб.</span></strong>
+            </div>
+            <a href="#" class="rating five-5"><i></i> (14)</a>
+
+            <div class="clr"></div>
+            <div class="seller">
+                Продавец<br>
+                <a href="#">М-Видео</a>
+            </div>
+            <div class="actions">
+                <a class="tolist tip" alt="К рецепту" href="#"><i></i></a>
+                <a class="tofavorite tip" alt="В избранное" href="#"><i></i></a>
+                <a class="tocart tip" alt="В корзину" href="#"><i></i></a>
+            </div>
+            <a class="fast-view" href="#">Быстрый просмотр</a>
+        </div>
+        <div class="product last">
+            <div class="badges">
+                <i class="gift"></i>
+            </div>
+            <div class="img">
+                <a href="#"><img src="media/temp/prod-3.jpg" alt=""></a>
+            </div>
+            <a class="name" href="#">Клавиатура</a>
+
+            <div class="price">5 790 <span>руб.</span></div>
+            <a href="#" class="rating five-3"><i></i> (224)</a>
+
+            <div class="clr"></div>
+            <div class="seller">
+                Продавец<br>
+                <a href="#">М-Видео</a>
+            </div>
+            <div class="actions">
+                <a class="tolist tip" alt="К рецепту" href="#"><i></i></a>
+                <a class="tofavorite tip" alt="В избранное" href="#"><i></i></a>
+                <a class="tocart tip" alt="В корзину" href="#"><i></i></a>
+            </div>
+            <a class="fast-view" href="#">Быстрый просмотр</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="product">
+            <div class="img">
+                <a href="#"><img src="media/temp/prod-4.jpg" alt=""></a>
+            </div>
+            <a class="name" href="#">Смеситель для ванны GROHE</a>
+
+            <div class="price">21 990 <span>руб.</span></div>
+            <a href="#" class="rating five-2"><i></i> (4)</a>
+
+            <div class="clr"></div>
+            <div class="seller">
+                Продавец<br>
+                <a href="#">М-Видео</a>
+            </div>
+            <div class="actions">
+                <a class="tolist tip" alt="К рецепту" href="#"><i></i></a>
+                <a class="tofavorite tip" alt="В избранное" href="#"><i></i></a>
+                <a class="tocart tip" alt="В корзину" href="#"><i></i></a>
+            </div>
+            <a class="fast-view" href="#">Быстрый просмотр</a>
+        </div>
+        <div class="product">
+            <div class="img">
+                <a href="#"><img src="media/temp/prod-5.jpg" alt=""></a>
+            </div>
+            <a class="name" href="#">Лучшему менеджеру</a>
+
+            <div class="price">590 <span>руб.</span></div>
+            <a href="#" class="rating five-5"><i></i> (14)</a>
+
+            <div class="clr"></div>
+            <div class="seller">
+                Продавец<br>
+                <a href="#">М-Видео</a>
+            </div>
+            <div class="actions">
+                <a class="tolist tip" alt="К рецепту" href="#"><i></i></a>
+                <a class="tofavorite tip" alt="В избранное" href="#"><i></i></a>
+                <a class="tocart tip" alt="В корзину" href="#"><i></i></a>
+            </div>
+            <a class="fast-view" href="#">Быстрый просмотр</a>
+        </div>
+        <div class="product last">
+            <div class="img">
+                <a href="#"><img src="media/temp/prod-6.jpg" alt=""></a>
+            </div>
+            <a class="name" href="#">Клавиатура</a>
+
+            <div class="price">5 790 <span>руб.</span></div>
+            <a href="#" class="rating five-4"><i></i> (224)</a>
+
+            <div class="clr"></div>
+            <div class="seller">
+                Продавец<br>
+                <a href="#">М-Видео</a>
+            </div>
+            <div class="actions">
+                <a class="tolist tip" alt="К рецепту" href="#"><i></i></a>
+                <a class="tofavorite tip" alt="В избранное" href="#"><i></i></a>
+                <a class="tocart tip" alt="В корзину" href="#"><i></i></a>
+            </div>
+            <a class="fast-view" href="#">Быстрый просмотр</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="product">
+            <div class="img">
+                <a href="#"><img src="media/temp/prod-7.jpg" alt=""></a>
+            </div>
+            <a class="name" href="#">Смеситель для ванны GROHE</a>
+
+            <div class="price">21 990 <span>руб.</span></div>
+            <a href="#" class="rating five-1"><i></i> (4)</a>
+
+            <div class="clr"></div>
+            <div class="seller">
+                Продавец<br>
+                <a href="#">М-Видео</a>
+            </div>
+            <div class="actions">
+                <a class="tolist tip" alt="К рецепту" href="#"><i></i></a>
+                <a class="tofavorite tip" alt="В избранное" href="#"><i></i></a>
+                <a class="tocart tip" alt="В корзину" href="#"><i></i></a>
+            </div>
+            <a class="fast-view" href="#">Быстрый просмотр</a>
+        </div>
+        <div class="product">
+            <div class="img">
+                <a href="#"><img src="media/temp/prod-8.jpg" alt=""></a>
+            </div>
+            <a class="name" href="#">Лучшему менеджеру</a>
+
+            <div class="price">590 <span>руб.</span></div>
+            <a href="#" class="rating five-0"><i></i> (14)</a>
+
+            <div class="clr"></div>
+            <div class="seller">
+                Продавец<br>
+                <a href="#">М-Видео</a>
+            </div>
+            <div class="actions">
+                <a class="tolist tip" alt="К рецепту" href="#"><i></i></a>
+                <a class="tofavorite tip" alt="В избранное" href="#"><i></i></a>
+                <a class="tocart tip" alt="В корзину" href="#"><i></i></a>
+            </div>
+            <a class="fast-view" href="#">Быстрый просмотр</a>
+        </div>
+        <a href="#" class="next">Следующая страница</a>
+    </div>
+    <div class="clr"></div>
+</div>
+
+<ul class="pager">
+    <li class="prev"><a href="#" class="noactive">Предыдущая</a></li>
+    <li class="active first"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li class="next"><a href="#">Следующая</a></li>
+</ul>
+
+</div>
+<div class="clr"></div>
+</div>
+
+<div id="bottom" class="block">
+    <ul>
+        <li>Магазин
+            <ul>
+                <li><a href="#">О Магазине</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Обратная связь</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </li>
+        <li>Покупка
+            <ul>
+                <li><a href="#">Заказ товара</a></li>
+                <li><a href="#">Оплата</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Возврат товара</a></li>
+                <li><a href="#">Гарантии магазина</a></li>
+            </ul>
+        </li>
+        <li>Партнеры
+            <ul>
+                <li><a href="#">Наши партнеры</a></li>
+                <li><a href="#">Стать партнером</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div class="clr"></div>
+    <div id="footer">
+        <div class="left fll">
+            <a href="#">Пользовательское соглашение</a><br>
+            &copy; 2012 Jetme, Inc. All Rights reserved.
+        </div>
+        <div class="right flr">
+            <a href="#">Разработка сайта</a><br>
+            Jetpeople
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,692 @@
+#main.profile {
+    padding-bottom: 15px;
+}
+
+#tabs .switchers li {
+    float: left;
+    background: url("../i/hovers.png") repeat-x 0 -298px;
+    cursor: pointer;
+    height: 31px;
+    margin: 0 1px 0 0;
+    border-radius: 3px 3px 0 0;
+    padding: 6px 12px 0;
+    color: #828282;
+    font-size: 16px;
+    font-family: 'siemens_sansbold', sans-serif;
+    text-shadow: 0 1px 0 #fff;
+}
+
+#tabs .switchers {
+    overflow: auto;
+}
+
+#tabs .switchers li:hover {
+    background-position: 0 -338px;
+}
+
+#tabs .switchers li.active {
+    background-position: 0 -378px;
+    cursor: default;
+    color: #fff;
+    text-shadow: none;
+}
+
+#tab-area {
+    min-height: 1000px;
+    border:1px solid #d9d9d9;
+    border-radius: 4px;
+    background: #fff;
+    position: relative;
+    top:-4px;
+}
+
+#tab-area .contents {
+    padding: 0 15px 15px;
+}
+
+#tab-area h3 {
+    text-align: center;
+    padding: 10px 0 12px;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 25px;
+}
+
+
+#tab-area input[type=text], #tab-area textarea {
+    height: 25px;
+    border: 1px solid #d1d1d1;
+    border-radius: 32px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 0 15px;
+    font-family: Verdana, Arial, sans-serif;
+    background: #fff;
+    font-size: 11px;
+    display: block;
+    margin: 0 5px;
+}
+
+#tab-area textarea {
+    padding: 2px 10px 10px;
+    color: #000;
+    line-height: 18px;
+    border-radius: 12px;
+    height: 48px;
+    width: 380px;
+    resize: none;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+input.small {
+    width: 58px;
+}
+
+
+
+
+input.megabig {
+    width: 550px;
+}
+
+input.normal {
+    width: 185px;
+}
+
+
+
+#tab-area label {
+    display: block;
+    position:relative;
+    color: #666666;
+    overflow: hidden;
+    line-height: 18px;
+    padding-top: 3px;
+}
+
+
+
+#tab-area label.checkbox input {
+    position: absolute;
+    left: -150px;
+}
+
+#tab-area label.checkbox i {
+    position: absolute;
+    right: 0;
+    top:5px;
+    width: 15px;
+    height: 15px;
+    background-position: -160px -202px;
+}
+
+#tab-area label.checkbox.active i {
+    background-position: -175px -202px;
+}
+
+#tab-area .form-item {
+    overflow: auto;
+}
+
+#tab-area .form-item label, #tab-area .form-item input {
+    float: left;
+}
+
+#tab-area .sale {
+    width: 300px;
+    overflow: auto;
+    margin: 0 auto 30px;
+}
+
+#tab-area .sale label.checkbox {
+    width: 180px;
+}
+
+#tab-area .sale label {
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+#tab-area .sale .form-item {
+    padding-left: 23px;
+}
+
+#tab-area .sale .form-item label {
+    width: 137px;
+}
+
+#tab-area .sale .gift {
+    margin: 45px 0 25px;
+}
+
+#tab-area .product-item {
+    overflow: auto;
+    width: 270px;
+    position: relative;
+}
+
+#tab-area .product-item img {
+    float: left;
+    display: block;
+}
+
+#tab-area .product-item .info {
+    margin-left: 125px;
+    width: 115px;
+    padding-top: 12px;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+#tab-area .product-item em {
+    display: block;
+    color: #999999;
+    font-size: 11px;
+}
+
+#tab-area .product-item .price {
+    font-size: 16px;
+    color: #000;
+    margin-top: 10px;
+}
+
+#tab-area .product-item .price span {
+    font-size: 12px;
+}
+
+#tab-area .product-item .delete {
+    right: 0;
+    top:0;
+    position: absolute;
+}
+
+#tab-area .delete {
+    width: 29px;
+    display: block;
+    height: 30px;
+    background: url("../i/sprite.png") no-repeat -173px -150px;
+}
+
+#tab-area .delete i {
+    width: 15px;
+    height: 15px;
+    left: 9px;
+    position: absolute;
+    top:5px;
+    background-position: -25px -235px;
+}
+
+#tab-area .delete:hover {
+    background-position: -201px -150px;
+}
+
+#tab-area .sale .product-item {
+    margin-left: 25px;
+}
+
+#tab-area .add {
+    text-decoration: none;
+    color: #333333;
+    font-family: 'siemens_sansbold',sans-serif;
+    font-size: 15px;
+    text-shadow: 0 1px 0 #fff;
+    background: url("../i/hovers.png") repeat-x 0 -418px;
+    height: 26px;
+    line-height: 26px;
+    display: block;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 26px;
+}
+
+#tab-area .add:hover {
+    background-position: 0 -444px;
+    color: #333333;
+}
+
+#tab-area .add i, .input-add a i, .plus i {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top:6px;
+    right: 5px;
+    background-position: -100px -225px;
+}
+
+#tab-area .add.new-char {
+    margin: 0 auto 35px;
+    width: 380px;
+}
+
+#tab-area .add.new-photo {
+    margin: 0 auto 35px;
+    width: 245px;
+}
+
+#tab-area .character {
+    width: 615px;
+    margin: 0 auto;
+    text-align: center;
+    color: #666;
+}
+
+#tab-area .character .name {
+    padding-bottom: 12px;
+}
+
+#tab-area .character .delete {
+    float: right;
+}
+
+#tab-area .character input {
+    float: left;
+    margin: 0;
+}
+
+#tab-area .character .set {
+    padding: 25px 35px 0 35px;
+    position: relative;
+}
+
+#tab-area .character .set .label {
+    padding-bottom: 6px;
+}
+
+#tab-area .character .set .label.fll {
+     width: 215px;
+ }
+
+#tab-area .character .set .label.flr {
+    width: 315px;
+}
+
+#tab-area .character .value {
+    margin-bottom: 10px;
+}
+
+.select.small {
+    width: 69px;
+    margin: 0;
+}
+
+.select {
+    height: 25px;
+    border: 1px solid #d1d1d1;
+    border-radius: 32px;
+    border: 1px solid #d1d1d1;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 0 0 0 15px;
+    font-family: Verdana, Arial, sans-serif;
+    background: #fff;
+    font-size: 11px;
+    display: block;
+    position: relative;
+    margin: 0 5px;
+}
+
+.select .val {
+    line-height: 25px;
+    display: inline-block;
+}
+
+#tab-area .circle {
+    width: 28px;
+    cursor: pointer;
+    height: 28px;
+    background-position: -174px -149px;
+}
+
+#tab-area .circle:hover {
+    background-position: -202px -149px;
+}
+
+.select .circle {
+    margin-top:-2px;
+
+}
+
+
+.select .circle .list {
+    position: absolute;
+    padding: 20px 0 0 0;
+    top: 13px;
+    left: -1px;
+    width: 100%;
+    background: transparent;
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #d8d8d8;
+    border-top: 0;
+    display: none;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.select .circle i {
+    width: 7px;
+    height: 5px;
+    margin: 13px 0 0 12px;
+    background-position: -50px -50px;
+}
+
+.select .circle:hover .list {
+    display: block;
+}
+
+.select .circle .list li {
+    background: #fff;
+    border-radius: 0;
+    padding: 0 0 4px 15px;
+    line-height: 20px;
+}
+
+.select .circle .list a {
+    background: none;
+    color: #000;
+    font-size: 11px;
+}
+
+.select .circle .list a:hover {
+    color: #ff6000;
+}
+
+#tab-area .character .select {
+    float: left;
+    color: #000;
+    text-align: center;
+    margin-right: 8px;
+}
+
+#tab-area .character .select li {
+    padding-left: 0;
+}
+
+#tab-area .character .normal {
+    margin-right: 13px;
+}
+
+#tab-area .character .add {
+    padding: 0 35px 0 20px;
+    margin:5px 35px 0 0;
+}
+
+#tab-area .character .set .cursor {
+    position: absolute;
+    height: 60px;
+    border-left: 1px solid #dadada;
+    left: 15px;
+    top:4px;
+}
+
+#tab-area .character .set .cursor i {
+    position: absolute;
+    background-position: 0 -256px;
+    bottom: -4px;
+    width: 12px;
+    height: 7px;
+    left: 0;
+}
+
+#tab-area .character {
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 35px;
+    margin-bottom: 30px;
+}
+
+#tab-area .character.last {
+    border: none;
+    padding-bottom: 4px;
+    margin-bottom: 0;
+}
+
+#tab-area .image-item {
+    height: 108px;
+    width: 115px;
+    position: relative;
+}
+
+#tab-area .image-item a.delete {
+    background-position: -125px -100px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -25px;
+    top:0;
+}
+
+#tab-area .photo-gallery, #tab-area .video-gallery {
+    padding-left: 95px;
+}
+
+#tab-area .photo-gallery .image-item, #tab-area .video-gallery .image-item {
+    float: left;
+    margin:15px 90px 35px 0;
+}
+
+a.play {
+    background: url("../i/play.png") no-repeat;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin: -32px 0 0 -32px;
+    z-index: 1;
+}
+
+.input-add {
+    width: 240px;
+    margin: 0 auto;
+    padding: 0 3px;
+    overflow: auto;
+    position: relative;
+}
+
+.input-add input {
+    float: left;
+    width: 200px;
+}
+
+.input-add a {
+    position: absolute;
+    right: 0;
+    top:-1px;
+}
+
+.linked-products {
+    padding:0 0 5px 50px;
+    overflow: auto;
+}
+
+.linked-products .product-item {
+    float: left;
+    margin: 15px 60px 30px 0;
+}
+
+#tab-area h3 .faq {
+    margin-left: 4px;
+    text-decoration: underline;
+}
+
+#tab-area h3 span, #tab-area h3 .faq {
+    font-family: Verdana, sans-serif;
+    color: #666666;
+    font-size: 12px;
+}
+
+#tab-area h3 .faq:hover {
+    color: #ff6000;
+    text-decoration: none;
+}
+
+#tooltip.faq {
+    width: 120px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    line-height: 14px;
+}
+
+#tooltip.faq i {
+    background-position: -265px -155px;
+    width: 12px;
+    height: 21px;
+    left: -10px;
+    top:50%;
+    margin-left: 0;
+    margin-top: -10px;
+}
+
+#tab-area .main-image {
+    float: left;
+}
+
+#tab-area .main-image .image-item {
+    width: 235px;
+    height: 220px;
+
+}
+
+#tab-area .form-item.image, #tab-area .form-item.choice {
+    overflow: visible;
+}
+
+#tab-area .product-form {
+    padding-left: 165px;
+    margin-bottom: 25px;
+}
+
+#tab-area .product-form .form-item {
+    margin-bottom: 12px;
+}
+
+#tab-area .product-form .form-item.image label {
+    line-height: 18px;
+}
+
+#tab-area .product-form .form-item label {
+    width: 155px;
+}
+
+.add.change {
+    margin: 10px 0;
+}
+
+#tab-area .add.change i {
+    background-position: -100px -100px;
+    top:4px;
+}
+
+#tab-area .product-form input {
+    margin: 0;
+    width: 205px;
+}
+
+#tab-area .product-form .select {
+    width: 220px;
+    float: left;
+    margin: 0;
+}
+
+#tab-area .product-description {
+    padding-left: 70px;
+    margin-bottom: 20px;
+}
+
+#tab-area .product-description label {
+    width: 170px;
+}
+
+#tab-area .product-description .form-item {
+    margin-bottom: 10px;
+}
+
+#tab-area .parameters {
+    padding: 0 75px;
+    text-align: center;
+    color: #666;
+}
+
+#tab-area .parameters .label  {
+    width: 235px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#tab-area .parameters .fll {
+    margin-right:55px;
+}
+
+#tab-area .parameters input {
+    width: 205px;
+    margin: 0;
+}
+
+#tab-area .parameters label {
+    width: 55px;
+}
+
+#tab-area .parameters .form-item {
+    margin-bottom: 8px;
+}
+
+.add.parameter {
+    width: 200px;
+    margin: 30px auto;
+}
+
+#tab-area .save {
+    display: block;
+    float: none;
+    margin: 15px auto 25px;
+    width: 230px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#tab-area .personal-form {
+    padding-left: 160px;
+    margin: 10px 0 50px 0;
+}
+
+#tab-area .personal-form label {
+    width: 160px;
+}
+
+#tab-area .personal-form .form-item {
+    margin-bottom: 10px;
+}
+
+#tab-area .personal-form input {
+    margin: 0;
+    width: 205px;
+}
+
+#tab-area .personal-form .select {
+    float: left;
+    margin: 0;
+    width: 220px;
+}
+
+#tab-area .personal-form textarea {
+    width: 215px;
+}
+
+#tab-area .personal-form .form-item.pink {
+    margin-bottom: 45px;
+}
+
+#tab-area .personal-form .form-item.pink label {
+    color: #dd137b;
+}
+
+#tab-area .personal-form .main-image .image-item {
+    width: 235px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+#tab-area .personal-form .circle.plus, #tab-area .personal-form .delete {
+    float: left;
+    margin-top: -1px;
+    margin-left: 5px;
+    height: 29px;
+}

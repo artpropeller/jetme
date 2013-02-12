@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JetMe</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" media="all" href="media/css/fonts.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="media/css/reset.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="media/css/style.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="media/css/profile.css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="media/js/jcarousellite_1.0.1.js"></script>
+    <script type="text/javascript" src="media/js/tiny.js"></script>
+    <script type="text/javascript" src="media/js/main.js"></script>
+</head>
+<body>
+<div id="container">
+    <div id="header" class="block profile">
+        <a class="logo mini" href="/"><img src="media/i/mini-logo.jpg" alt="Веб-маркет jetme"></a>
+
+        <div class="center">
+           <div class="hello">Здравствуйте, @login</div>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="#">Выйти</a></li>
+                <li class="reg"><a href="#">Перейти в магазин</a></li>
+                <li><a href="#">Помощь <i class="arr-down"></i></a>
+                    <ul>
+                        <li><a href="#">Вход на сайт</a></li>
+                        <li><a href="#">Вход</a></li>
+                        <li><a href="#">Способы доставки</a></li>
+                        <li><a href="#">Помощь</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div id="main" class="block profile">
+        <div id="sidebar" class="fll">
+
+
+
+            <ul id="menu">
+                <li class="active orders"><a href="#">Заказы <em>2</em></a></li>
+                <li><a href="#">Информация о партнере</a></li>
+                <li><a href="#">Разделы</a></li>
+                <li><a href="#">Товары</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Документы</a></li>
+            </ul>
+
+        </div>
+
+        <div id="content" class="flr">
+
+            <div id="tabs">
+                <ul class="switchers">
+                    <li>Персональная</li>
+                    <li class="active">Публичная</li>
+                    <li>Время работы</li>
+                    <li>Информация для расчетов</li>
+                </ul>
+                <div id="tab-area">
+
+                    <div class="contents">
+                        <h3>Публичная информация о компании</h3>
+
+
+                        <div class="personal-form">
+
+
+                            <div class="form-item image">
+                                <label>Логотип</label>
+                                <div class="main-image">
+                                    <div class="image-item">
+                                        <a class="delete" href="#"></a>
+                                        <img src="media/temp/mvideo-logo.jpg" width="235" height="120" alt="">
+                                    </div>
+                                    <a class="add" href="#">Добавить изображение<i></i></a>
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+
+                            <div class="form-item">
+                                <label for="id_text1">Название</label>
+                                <input type="text" value=" Рога и копыта" id="id_text1">
+                            </div>
+                            <div class="form-item">
+                                <label>Адрес</label>
+                                <textarea>ул. Ватутина 49/2</textarea>
+                            </div>
+                            <div class="form-item">
+                                <label for="id_text3">Общий телефон</label>
+                                <input type="text" value="8-8422-444444" id="id_text3">
+                            </div>
+                            <div class="form-item">
+                                <label for="id_text4">Телефон<br>для получения информации о товаре</label>
+                                <input type="text" value="8-8422-444444" id="id_text4">
+                            </div>
+
+                            <div class="form-item">
+                                <label for="id_text5">Общая эл. почта</label>
+                                <input type="text" value="some@mail.ru" id="id_text5">
+                            </div>
+                            <div class="form-item">
+                                <label for="id_text6">Электронная почта<br>для получения уведомлений о заказах</label>
+                                <input type="text" value="info@mail.ru" id="id_text6">
+                            </div>
+
+                        </div>
+
+                        <h3>Обмен мгновенными сообщения</h3>
+
+                        <div class="personal-form">
+                            <div class="form-item">
+                                <label for="id_text8">ICQ</label>
+                                <input type="text" id="id_text8">
+                                <a class="circle plus" href="#"><i></i></a>
+                            </div>
+                            <div class="form-item">
+                                <label for="id_text9">Skype</label>
+                                <input type="text" value="SkypeSkype" id="id_text9">
+                                <a class="delete" href="#"><i></i></a>
+                            </div>
+                            <div class="form-item">
+                                <label for="id_text10"></label>
+                                <input type="text" id="id_text10">
+                                <a class="circle plus" href="#"><i></i></a>
+                            </div>
+
+                        </div>
+
+
+                        <h3>О компании</h3>
+
+                        <div class="product-description">
+                            <div class="form-item">
+                                <label>Краткое описание</label>
+                                <textarea>Компания “Рога и Копыта” занимается рогами и копытами,  понятно же.</textarea>
+                            </div>
+                            <div class="form-item">
+                                <label>Подробное описание</label>
+                                <textarea>Рога это одно, а копыта - совершенно другое.</textarea>
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+
+
+                        <a href="#" class="button save">Сохранить изменения</a>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+            <div id="footer">
+                <div class="left">
+                    <a href="#">Пользовательское соглашение</a><br>
+                    &copy; 2012 Jetme, Inc. All Rights reserved.
+                </div>
+            </div>
+
+
+        </div>
+        <div class="clr"></div>
+    </div>
+
+
+</div>
+
+</body>
+</html>
