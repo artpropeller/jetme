@@ -33,11 +33,11 @@
 
 #tab-area {
     min-height: 1000px;
-    border:1px solid #d9d9d9;
+    border: 1px solid #d9d9d9;
     border-radius: 4px;
     background: #fff;
     position: relative;
-    top:-4px;
+    top: -4px;
 }
 
 #tab-area .contents {
@@ -50,7 +50,6 @@
     border-bottom: 1px solid #d9d9d9;
     margin-bottom: 25px;
 }
-
 
 #tab-area input[type=text], #tab-area textarea {
     height: 25px;
@@ -81,9 +80,6 @@ input.small {
     width: 58px;
 }
 
-
-
-
 input.megabig {
     width: 550px;
 }
@@ -92,18 +88,14 @@ input.normal {
     width: 185px;
 }
 
-
-
 #tab-area label {
     display: block;
-    position:relative;
+    position: relative;
     color: #666666;
     overflow: hidden;
     line-height: 18px;
     padding-top: 3px;
 }
-
-
 
 #tab-area label.checkbox input {
     position: absolute;
@@ -113,7 +105,7 @@ input.normal {
 #tab-area label.checkbox i {
     position: absolute;
     right: 0;
-    top:5px;
+    top: 5px;
     width: 15px;
     height: 15px;
     background-position: -160px -202px;
@@ -195,15 +187,15 @@ input.normal {
 
 #tab-area .product-item .delete {
     right: 0;
-    top:0;
+    top: 0;
     position: absolute;
 }
 
 #tab-area .delete {
-    width: 29px;
+    width: 28px;
     display: block;
     height: 30px;
-    background: url("../i/sprite.png") no-repeat -173px -150px;
+    background: url("../i/sprite.png") no-repeat -174px -150px;
 }
 
 #tab-area .delete i {
@@ -211,12 +203,12 @@ input.normal {
     height: 15px;
     left: 9px;
     position: absolute;
-    top:5px;
+    top: 5px;
     background-position: -25px -235px;
 }
 
 #tab-area .delete:hover {
-    background-position: -201px -150px;
+    background-position: -202px -150px;
 }
 
 #tab-area .sale .product-item {
@@ -226,7 +218,7 @@ input.normal {
 #tab-area .add {
     text-decoration: none;
     color: #333333;
-    font-family: 'siemens_sansbold',sans-serif;
+    font-family: 'siemens_sansbold', sans-serif;
     font-size: 15px;
     text-shadow: 0 1px 0 #fff;
     background: url("../i/hovers.png") repeat-x 0 -418px;
@@ -248,7 +240,7 @@ input.normal {
     position: absolute;
     width: 17px;
     height: 17px;
-    top:6px;
+    top: 6px;
     right: 5px;
     background-position: -100px -225px;
 }
@@ -293,8 +285,8 @@ input.normal {
 }
 
 #tab-area .character .set .label.fll {
-     width: 215px;
- }
+    width: 215px;
+}
 
 #tab-area .character .set .label.flr {
     width: 315px;
@@ -341,10 +333,9 @@ input.normal {
 }
 
 .select .circle {
-    margin-top:-2px;
+    margin-top: -2px;
 
 }
-
 
 .select .circle .list {
     position: absolute;
@@ -406,7 +397,7 @@ input.normal {
 
 #tab-area .character .add {
     padding: 0 35px 0 20px;
-    margin:5px 35px 0 0;
+    margin: 5px 35px 0 0;
 }
 
 #tab-area .character .set .cursor {
@@ -414,7 +405,7 @@ input.normal {
     height: 60px;
     border-left: 1px solid #dadada;
     left: 15px;
-    top:4px;
+    top: 4px;
 }
 
 #tab-area .character .set .cursor i {
@@ -450,7 +441,7 @@ input.normal {
     height: 20px;
     position: absolute;
     right: -25px;
-    top:0;
+    top: 0;
 }
 
 #tab-area .photo-gallery, #tab-area .video-gallery {
@@ -459,7 +450,7 @@ input.normal {
 
 #tab-area .photo-gallery .image-item, #tab-area .video-gallery .image-item {
     float: left;
-    margin:15px 90px 35px 0;
+    margin: 15px 90px 35px 0;
 }
 
 a.play {
@@ -467,7 +458,7 @@ a.play {
     width: 65px;
     height: 65px;
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 50%;
     margin: -32px 0 0 -32px;
     z-index: 1;
@@ -489,11 +480,11 @@ a.play {
 .input-add a {
     position: absolute;
     right: 0;
-    top:-1px;
+    top: -1px;
 }
 
 .linked-products {
-    padding:0 0 5px 50px;
+    padding: 0 0 5px 50px;
     overflow: auto;
 }
 
@@ -520,7 +511,7 @@ a.play {
 
 #tooltip.faq {
     width: 120px;
-    box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     line-height: 14px;
 }
 
@@ -529,7 +520,7 @@ a.play {
     width: 12px;
     height: 21px;
     left: -10px;
-    top:50%;
+    top: 50%;
     margin-left: 0;
     margin-top: -10px;
 }
@@ -571,7 +562,7 @@ a.play {
 
 #tab-area .add.change i {
     background-position: -100px -100px;
-    top:4px;
+    top: 4px;
 }
 
 #tab-area .product-form input {
@@ -604,14 +595,14 @@ a.play {
     color: #666;
 }
 
-#tab-area .parameters .label  {
+#tab-area .parameters .label {
     width: 235px;
     margin-bottom: 10px;
     float: left;
 }
 
 #tab-area .parameters .fll {
-    margin-right:55px;
+    margin-right: 55px;
 }
 
 #tab-area .parameters input {
@@ -689,4 +680,135 @@ a.play {
     margin-top: -1px;
     margin-left: 5px;
     height: 29px;
+}
+
+.form-item .input-add {
+    margin: 0;
+    padding: 0 3px 0 0;
+    width: 234px;
+    float: left;
+}
+
+.form-item {
+
+}
+
+.form-item .faq {
+    right: -12px;
+    color: #666666;
+    text-decoration: underline;
+    font-size: 12px;
+    position: relative;
+
+}
+
+.form-item .faq:hover {
+    text-decoration: none;
+    color: #ff6000;
+}
+
+#tab-area .product-form .form-item.pad {
+    margin-bottom: 25px;
+}
+
+#tab-area .form-item .add.new-photo {
+    margin-bottom: 13px;
+    width: 237px;
+}
+
+.form-item.img .image-item {
+    display: inline-block;
+}
+
+#tab-area .form-item.img .image-item a.delete {
+    right: 5px;
+    top: 5px;
+    z-index: 100;
+}
+
+#tab-area .form-item.image .main-image.big a.delete {
+    width: 28px;
+    display: block;
+    height: 30px;
+    background: url("../i/sprite.png") no-repeat -174px -150px;
+    right: -40px;
+    top:0;
+
+}
+
+#tab-area .form-item.image .main-image.big a.delete:hover {
+    background-position: -202px -150px;
+
+}
+
+.mid-width{
+    width: 311px;
+}
+
+#tab-area .character.mid{
+    width: 382px;
+    border-bottom: 0;
+}
+
+#tab-area .character.mid .delete{
+    float: left;
+    margin-left: 10px;
+
+}
+
+#tab-area .character.mid .value{
+    width: 382px;
+}
+
+#tab-area .character.mid .set .label.fll{
+    width: 215px;
+    text-align: center;
+}
+
+#tab-area .character.mid .set .label.flr{
+    width: 96px;
+}
+
+#tab-area .character.mid .normal{
+    margin-right: 7px;
+}
+
+
+#tab-area .character.mid .add {
+    margin-right: 2px;
+    margin-bottom: 15px;
+}
+
+#tab-area .character.mid input.small{
+    width: 55px;
+}
+#tab-area .character.mid input.normal{
+    width: 182px;
+}
+#tab-area .character.mid .add.new-char{
+    width: 327px;
+}
+
+
+#tab-area .character.mid{
+    margin: 0 auto;
+    padding: 0;
+}
+
+#tab-area .product-item.fln{
+    float: none;
+    margin:  0 auto 30px;
+}
+#tab-area .form-item.prez{
+    width: 420px;
+    margin: 0 auto;
+
+}
+
+#tab-area .form-item.prez label{
+    margin-right: 20px;
+}
+
+#tab-area .linked-products.pad{
+    padding-bottom: 30px;
 }
