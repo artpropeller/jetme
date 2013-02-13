@@ -51,7 +51,7 @@
     margin-bottom: 25px;
 }
 
-#tab-area input[type=text], #tab-area textarea {
+#tab-area input[type=text], #tab-area textarea, .hide input[type=text] {
     height: 25px;
     border: 1px solid #d1d1d1;
     border-radius: 32px;
@@ -88,7 +88,7 @@ input.normal {
     width: 185px;
 }
 
-#tab-area label {
+#tab-area label, .hide label {
     display: block;
     position: relative;
     color: #666666;
@@ -97,12 +97,18 @@ input.normal {
     padding-top: 3px;
 }
 
-#tab-area label.checkbox input {
+#tab-area label.checkbox input, .hide label.checkbox input {
     position: absolute;
     left: -150px;
 }
 
-#tab-area label.checkbox i {
+.hide label.checkbox {
+    padding: 15px 0;
+    margin: 0 auto;
+    width: 15px;
+}
+
+#tab-area label.checkbox i, .hide label.checkbox i {
     position: absolute;
     right: 0;
     top: 5px;
@@ -111,7 +117,7 @@ input.normal {
     background-position: -160px -202px;
 }
 
-#tab-area label.checkbox.active i {
+#tab-area label.checkbox.active i, .hide label.checkbox.active i {
     background-position: -175px -202px;
 }
 
@@ -240,7 +246,7 @@ input.normal {
     position: absolute;
     width: 17px;
     height: 17px;
-    top: 6px;
+    top: 5px;
     right: 5px;
     background-position: -100px -225px;
 }
@@ -325,11 +331,15 @@ input.normal {
     width: 28px;
     cursor: pointer;
     height: 28px;
-    background-position: -174px -149px;
+    background-position: -174px -150px;
 }
 
 #tab-area .circle:hover {
-    background-position: -202px -149px;
+    background-position: -202px -150px;
+}
+
+#tab-area .select .circle {
+    background-position: -173px -149px;
 }
 
 .select .circle {
@@ -732,7 +742,7 @@ a.play {
     height: 30px;
     background: url("../i/sprite.png") no-repeat -174px -150px;
     right: -40px;
-    top:0;
+    top: 0;
 
 }
 
@@ -741,74 +751,274 @@ a.play {
 
 }
 
-.mid-width{
+.mid-width {
     width: 311px;
 }
 
-#tab-area .character.mid{
+#tab-area .character.mid {
     width: 382px;
     border-bottom: 0;
 }
 
-#tab-area .character.mid .delete{
+#tab-area .character.mid .delete {
     float: left;
     margin-left: 10px;
 
 }
 
-#tab-area .character.mid .value{
+#tab-area .character.mid .value {
     width: 382px;
 }
 
-#tab-area .character.mid .set .label.fll{
+#tab-area .character.mid .set .label.fll {
     width: 215px;
     text-align: center;
 }
 
-#tab-area .character.mid .set .label.flr{
+#tab-area .character.mid .set .label.flr {
     width: 96px;
 }
 
-#tab-area .character.mid .normal{
+#tab-area .character.mid .normal {
     margin-right: 7px;
 }
-
 
 #tab-area .character.mid .add {
     margin-right: 2px;
     margin-bottom: 15px;
 }
 
-#tab-area .character.mid input.small{
+#tab-area .character.mid input.small {
     width: 55px;
 }
-#tab-area .character.mid input.normal{
+
+#tab-area .character.mid input.normal {
     width: 182px;
 }
-#tab-area .character.mid .add.new-char{
+
+#tab-area .character.mid .add.new-char {
     width: 327px;
 }
 
-
-#tab-area .character.mid{
+#tab-area .character.mid {
     margin: 0 auto;
     padding: 0;
 }
 
-#tab-area .product-item.fln{
+#tab-area .product-item.fln {
     float: none;
-    margin:  0 auto 30px;
+    margin: 0 auto 30px;
 }
-#tab-area .form-item.prez{
+
+#tab-area .form-item.prez {
     width: 420px;
     margin: 0 auto;
 
 }
 
-#tab-area .form-item.prez label{
+#tab-area .form-item.prez label {
     margin-right: 20px;
 }
 
-#tab-area .linked-products.pad{
+#tab-area .linked-products.pad {
     padding-bottom: 30px;
+}
+
+.contents.add-tovar .add.tovar {
+    width: 185px;
+    margin: 35px auto 20px;
+
+}
+
+.tab {
+    margin-bottom: 35px;
+}
+
+.tab td {
+    text-align: center;
+    width: auto;
+    padding: 10px 0 0;
+}
+
+.tab th {
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+    color: #666666;
+    padding-bottom: 0;
+}
+
+#tab-area .tab .delete {
+    margin: 0 auto;
+}
+
+#tab-area .tab label.checkbox {
+    padding: 15px 0;
+    width: 15px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+#tab-area.no-border {
+    border: 0;
+}
+
+#tab-area .tab .middle {
+    width: 268px;
+    margin: 0 auto;
+}
+
+#tab-area .tab .small {
+    margin: 0 auto;
+}
+
+#tab-area .tab .circle.settings i {
+    background-position: -100px -100px;
+    width: 16px;
+    height: 17px;
+    margin: 4px auto 0;
+}
+
+#tab-area.worktime .select.time {
+    width: 83px;
+    float: left;
+}
+
+#tab-area.worktime .item label {
+    float: left;
+    display: block;
+    width: 155px;
+}
+
+#tab-area.worktime .item span {
+    display: block;
+    float: left;
+    padding: 0 10px;
+}
+
+#tab-area.worktime .item .circle.plus {
+    float: left;
+}
+
+#tab-area.worktime .item {
+    width: 435px;
+    margin: 0 auto 10px;
+}
+
+#tab-area.worktime .select.output {
+    width: 108px;
+    float: left;
+}
+
+#tab-area.worktime .item.last {
+    margin-bottom: 40px;
+}
+
+#tab-area.worktime .item .delete {
+    float: left;
+}
+
+.tab-change {
+    font-family: "siemens_sansbold", sans-serif;
+    width: 796px;
+    float: left;
+    font-size: 14px;
+    background: #fff;
+    color: #4c4c4c;
+    margin-bottom: 20px;
+}
+
+.tab-change th {
+    font-size: 18px;
+    color: #939393;
+}
+
+.tab-change .gray {
+    background: #d9d9d9;
+}
+
+.tab-change td, .tab-change th {
+    border-right: 1px solid #d9d9d9;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tab-change .last {
+    border-right: 0;
+}
+
+#tab-area .tab-change input[type=text] {
+    float: none;
+    margin: 0 auto;
+}
+
+.tab-change .id input {
+    width: 73px;
+
+}
+
+.tab-change .category input {
+    width: 152px;
+}
+
+.tab-change .name input {
+    width: 184px;
+}
+
+.tab-change .price input {
+    width: 92px;
+}
+
+#tab-area .tab-change label.checkbox {
+    padding: 15px 0;
+    width: 15px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.tab-change .event {
+    background: #f7f7f7;
+}
+
+.hide {
+    display: none;
+    padding: 30px 1px 30px 1px;
+}
+
+.fancybox-inner {
+    background: #fff url("../i/color-line-top.jpg") repeat-x top;
+
+}
+
+.fancybox-wrap {
+    border-radius: 7px;
+    border: 7px solid #bebebe;
+    margin: 10px auto 0;
+}
+
+.fancybox-opened .fancybox-skin {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.hide h4 {
+    margin: 0 0 25px 25px;
+}
+
+.fancybox-close {
+    position: absolute;
+    top: -12px;
+    right: -42px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    z-index: 8040;
+    background: url("../i/ico-close-red.png") no-repeat;
+    padding-left: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 11px;
 }

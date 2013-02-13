@@ -84,4 +84,11 @@ $(function(){
         $(this).parent().toggleClass('active');
     });
 
+    $('.fancy').fancybox({
+        padding:0,
+        margin:0,
+        fitToView:false
+    });
+
+
 });

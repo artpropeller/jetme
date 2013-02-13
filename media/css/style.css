@@ -78,7 +78,7 @@ i, .social a, .circle, .buy {
 }
 
 #header.profile {
-    background:#fff url("../i/color-line-top.jpg") no-repeat 0 60px;
+    background: #fff url("../i/color-line-top.jpg") no-repeat 0 60px;
     height: 72px;
 }
 
@@ -457,20 +457,26 @@ i.arr-down {
     padding-left: 15px;
 }
 
+#main.profile #menu .active a em {
+    background: #fff;
+    color: #cd1272;
+    font-weight: bold;}
+
 #main.profile #menu a em {
     font-style: normal;
-    font-weight: bold;
+
     position: absolute;
     right: 4px;
-    top:4px;
+    top: 4px;
     width: 27px;
     height: 23px;
     line-height: 23px;
     text-align: center;
     display: block;
-    background: #fff;
+    background: #333333;
     border-radius: 4px;
-    color: #cd1272;
+    color: #fff;
+
 }
 
 #menu a i {
@@ -1371,13 +1377,13 @@ ol div {
 
 figure {
     display: block;
-    margin:0 0 15px;
+    margin: 0 0 15px;
 }
 
 figure img {
     display: block;
     padding: 10px;
-    border:1px solid #cccccc;
+    border: 1px solid #cccccc;
 }
 
 .gray {
@@ -1545,14 +1551,14 @@ figure img {
     z-index: 0;
     display: block;
     padding: 10px;
-    border:1px solid #cccccc;
+    border: 1px solid #cccccc;
     width: 720px;
     height: 620px;
 }
 
 #contacts .data {
     position: absolute;
-    top:30px;
+    top: 30px;
     padding: 0 10px;
     width: 370px;
     left: 20px;
@@ -1563,7 +1569,7 @@ figure img {
 #contacts .slide {
     position: absolute;
     right: 10px;
-    top:10px;
+    top: 10px;
     background-position: -75px -75px;
     width: 11px;
     height: 9px;
