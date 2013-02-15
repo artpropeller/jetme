@@ -78,7 +78,7 @@ i, .social a, .circle, .buy {
 }
 
 #header.profile {
-    background: #fff url("../i/color-line-top.jpg") no-repeat 0 60px;
+    background: #fff url("../i/color-line-top.jpg") repeat-x 0 60px;
     height: 72px;
 }
 
@@ -460,7 +460,8 @@ i.arr-down {
 #main.profile #menu .active a em {
     background: #fff;
     color: #cd1272;
-    font-weight: bold;}
+    font-weight: bold;
+}
 
 #main.profile #menu a em {
     font-style: normal;
@@ -1638,7 +1639,7 @@ p.center {
     display: block;
     overflow: hidden;
     border-radius: 4px;
-    border:1px solid #cccfd1;
+    border: 1px solid #cccfd1;
 }
 
 .order-item thead {
@@ -1700,7 +1701,7 @@ p.center {
     margin: 0;
 }
 
-.order-item input[type=text] {
+.order-item input[type=text], #product  input[type=text] {
     height: 25px;
     width: 35px;
     text-align: center;
@@ -1713,6 +1714,12 @@ p.center {
     font-size: 11px;
     display: block;
     margin: 0;
+}
+
+#product  input[type=text] {
+    width: 204px;
+    text-align: left;
+
 }
 
 a.remove {
@@ -1728,7 +1735,7 @@ a.remove i {
     width: 11px;
     height: 11px;
     position: absolute;
-    top:3px;
+    top: 3px;
     left: -15px;
 }
 
@@ -1761,7 +1768,7 @@ a.remove:hover {
 }
 
 .recipe .actions {
-    border-top:1px solid #d9d9d9;
+    border-top: 1px solid #d9d9d9;
     padding: 13px 0;
     overflow: auto;
 }
@@ -1769,7 +1776,7 @@ a.remove:hover {
 .recipe .actions a {
     float: left;
     margin-left: 15px;
-    border:0;
+    border: 0;
     font-size: 11px;
     line-height: 13px;
     margin-right: 45px;
@@ -1783,7 +1790,7 @@ a.remove:hover {
     position: absolute;
     width: 12px;
     height: 12px;
-    top:2px;
+    top: 2px;
     left: -15px;
 }
 
@@ -1832,8 +1839,13 @@ a.button.add-recipe {
 
 }
 
-.add-review textarea::-webkit-input-placeholder {font-style: italic;}
-.add-review textarea:-moz-placeholder {font-style: italic;}
+.add-review textarea::-webkit-input-placeholder {
+    font-style: italic;
+}
+
+.add-review textarea:-moz-placeholder {
+    font-style: italic;
+}
 
 .add-review a.button {
     float: right;
@@ -1846,11 +1858,9 @@ a.button.add-recipe {
     margin: 7px 7px 0 0;
 }
 
-
-
 .voting {
     position: relative;
-    margin:0;
+    margin: 0;
     float: left;
     margin-top: 7px;
     width: 100px;
@@ -1939,7 +1949,7 @@ a.button.add-recipe {
 
 .review .item .text {
     position: relative;
-    border:1px solid #cccccc;
+    border: 1px solid #cccccc;
     padding: 12px 15px;
     border-radius: 8px;
     margin: 0 0 10px 0;
@@ -1947,7 +1957,7 @@ a.button.add-recipe {
 
 .review .item .text i {
     position: absolute;
-    top:16px;
+    top: 16px;
     left: -21px;
     background-position: -175px -125px;
     width: 21px;
@@ -1964,3 +1974,679 @@ a.button.add-recipe {
     font-style: italic;
     font-size: 12px;
 }
+
+.order-item .total a.button.fll {
+    float: left;
+    margin-left: 0;
+}
+
+#content.add-tovars .order-item tbody tr {
+    background: #f7f7f7;
+
+}
+
+#content.add-tovars .order-item tbody figure img {
+    background: #fff;
+}
+
+#content.add-tovars .order-item th {
+    font-weight: bold;
+}
+
+#content.add-tovars h3 {
+    text-align: center;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+.itogo {
+    font-size: 18px;
+    color: #666666;
+    font-family: "siemens_sansbold", sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.itogo strong {
+    color: #000;
+}
+
+.itogo strong.big {
+    font-size: 24px;
+}
+
+.button.confirm {
+    float: none;
+    margin: 0 auto;
+    width: 174px;
+    display: block;
+    text-align: center;
+}
+
+#content.add-tovars .form-info label {
+    width: 160px;
+}
+
+#content.add-tovars .form-info input {
+    width: 204px;
+    margin: 0;
+}
+
+#content.add-tovars .form-info textarea {
+    width: 214px;
+    margin: 0;
+}
+
+#content.add-tovars .form-item {
+    margin: 0 auto 10px;
+    width: 410px;
+}
+
+#tab-area label.radio {
+    overflow: hidden;
+    color: #000;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+
+}
+
+#tab-area label.radio input {
+    position: absolute;
+    left: -350px;
+}
+
+#tab-area .form-item label.radio i {
+    background-position: -200px -199px;
+    width: 15px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    cursor: pointer;
+}
+
+#tab-area label.radio.active i {
+    background-position: -200px -184px;
+
+}
+
+#tab-area .radio-set {
+    float: left;
+    width: 250px;
+}
+
+#tab-area .radio-set label.radio {
+    float: none;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+#content.add-tovars .form-info .radio-set input[type=text] {
+    width: 110px;
+}
+
+#content.add-tovars .form-info .radio-set label.radio.fll {
+    float: left;
+    width: 65px;
+}
+
+#tab-area .form-info .select {
+    width: 219px;
+    float: left;
+    margin: 0;
+
+}
+
+#tab-area .form-info {
+    margin-bottom: 30px;
+}
+
+.shop.partner .name {
+    margin-top: 8px;
+}
+
+a.button.blue {
+    background-position: 0 -470px;
+    color: #fff;
+    text-shadow: 1px 1px #666;
+}
+
+a.button.blue:hover {
+    background-position: 0 -506px;
+}
+
+.shop-photos li {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.shop-photos {
+    border-top: 2px solid #d9d9d9;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+
+.shop-photos h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.about_partner .inf {
+    margin-left: 234px;
+    font-size: 12px;
+    color: #666;
+    padding-right: 30px;
+    line-height: 20px;
+}
+
+.about_partner {
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.work_time {
+    width: 222px;
+    font-size: 12px;
+    color: #000;
+    margin-left: 60px;
+
+}
+
+.work_time .day {
+    margin-bottom: 7px;
+}
+
+.work_time .day .flr {
+    color: #666;
+    width: 85px;
+    text-align: left;
+}
+
+.work_time .zag {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.partner_info {
+    width: 356px;
+    font-size: 12px;
+    color: #000;
+}
+
+.partner_info .divider {
+    margin: 10px;
+    height: 1px;
+    background: #cfcfcf;
+
+}
+
+.partner_info .flr {
+    width: 145px;
+    text-align: left;
+    color: #666;
+}
+
+.partner_info .fll {
+    width: 210px;
+}
+
+#tab-area.partners {
+    min-height: 0;
+}
+
+.product h1 {
+    float: left;
+}
+
+.product .tovar_id.gray {
+    padding: 5px 15px;
+    margin: 0;
+}
+
+#product .photo {
+    width: 299px;
+    border-bottom: 2px solid #d9d9d9;
+    overflow: hidden;
+}
+
+#product .photo img {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#product .thumb li {
+    float: left;
+    margin-right: 10px;
+}
+
+#product .thumb li.last {
+    margin-right: 0;
+}
+
+#product .thumb {
+    margin-bottom: 15px;
+
+}
+
+#product .big_photo {
+    margin-bottom: 10px;
+}
+
+#product {
+    margin-bottom: 15px;
+}
+
+#product .info {
+    width: 405px;
+    border-bottom: 2px solid #d9d9d9;
+
+}
+
+a.tofavorite span {
+    position: absolute;
+    left: 35px;
+    top: 4px;
+    width: 100px;
+    font-size: 11px;
+}
+
+.product #product .actions a.tofavorite {
+    float: right;
+    margin-right: 80px;
+}
+
+#product h2 {
+    color: #000;
+}
+
+#product .rating i {
+    background-position: 0 -125px;
+    width: 100px;
+    height: 18px;
+    top: 0;
+}
+
+#product .rating {
+    width: 110px;
+    height: 18px;
+    margin-bottom: 10px;
+}
+
+#product .rating.five-1 i {
+    background-position: 0 -143px;
+
+}
+
+#product .rating.five-2 i {
+    background-position: 0 -161px;
+
+}
+
+#product .rating.five-3 i {
+    background-position: 0 -179px;
+
+}
+
+#product .rating.five-4 i {
+    background-position: 0 -197px;
+
+}
+
+#product .rating.five-5 i {
+    background-position: 0 -215px;
+
+}
+
+#product em {
+    font-size: 11px;
+    display: block;
+    margin-bottom: 15px;
+
+}
+
+.form-edit.gray {
+    padding: 10px 18px;
+    margin: 0 0 15px;
+}
+
+.form-edit .form-item label {
+    font-size: 11px;
+    width: 130px;
+    float: left;
+    color: #666;
+}
+
+.form-edit .select {
+    width: 219px;
+    float: left;
+    margin: 0;
+}
+
+.form-edit .select .circle {
+    width: 28px;
+    height: 28px;
+    margin-top: -27px;
+    z-index: 5;
+}
+
+.form-edit .form-item {
+    margin-bottom: 10px;
+}
+
+.form-edit .form-item.last {
+    margin-bottom: 12px;
+}
+
+.select:hover .val {
+    position: relative;
+    z-index: 22;
+}
+
+.prices .fll {
+    width: 200px;
+    text-align: center;
+}
+
+.prices a.button.blue, .summ a.button.blue {
+    float: right;
+    margin-right: 5px;
+    padding-left: 40px;
+}
+
+a.button.blue.add-cart i {
+    background-position: -75px -25px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 15px;
+}
+
+.prices .old {
+    font-size: 14px;
+    color: #666;
+    text-decoration: line-through;
+    margin-bottom: 2px;
+}
+
+.prices .new {
+    font-size: 24px;
+    color: #dd137b;
+
+}
+
+#product .prices .new em {
+    font-style: normal;
+    font-size: 12px;
+    display: inline;
+}
+
+#tab-area.characters {
+    min-height: 0;
+    width: 572px;
+    border-radius: 4px 0 0 4px;
+    margin-bottom: 15px;
+
+}
+
+#tab-area.characters .contents {
+    padding-top: 20px;
+    position: relative;
+    width: 535px;
+    padding-bottom: 25px;
+
+}
+
+#tab-area.characters .contents .about {
+    width: 535px;
+}
+
+#tab-area.characters .contents .about p {
+    font-size: 12px;
+    color: #666;
+
+}
+
+#tab-area.characters .contents .item {
+    width: 468px;
+    border-bottom: 1px solid #cfcfcf;
+    overflow: auto;
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+}
+
+#tab-area.characters .contents .item .flr {
+    color: #666;
+    width: 234px;
+    text-align: left;
+}
+
+#tab-area.characters .contents .item.last {
+    border: 0;
+}
+
+.present .name {
+    background: url("../i/hovers.png") repeat-x 0 -542px;
+    height: 26px;
+    text-align: center;
+    text-shadow: 1px 1px #666;
+    color: #fff;
+    font-size: 18px;
+    font-family: "siemens_sansbold", sans-serif;
+    padding-top: 7px;
+    border-radius: 4px 4px 0 0;
+}
+
+.present {
+    width: 171px;
+
+}
+
+.present .inf {
+
+    border: 1px solid #cf531e;
+    text-align: center;
+    line-height: 16px;
+    padding: 28px 12px 22px;
+    background: #fff;
+
+}
+
+.present img {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.present em {
+    display: block;
+    font-size: 11px;
+    color: #999;
+    text-align: left;
+}
+
+.present a {
+    display: block;
+    text-align: left;
+    font-size: 13px;
+}
+
+#content.product h2 {
+    color: #000;
+}
+
+.with-tovar {
+    border-top: 2px solid #d9d9d9;
+    padding: 15px 0;
+}
+
+.with-tovar .inner.gray {
+    margin: 0;
+    padding: 20px;
+
+}
+
+.with-tovar .tovar {
+    position: relative;
+    float: left;
+    padding-left: 15px;
+    margin-right: 20px;
+}
+
+.with-tovar .tovar img {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.with-tovar .tovar em {
+    display: block;
+    font-size: 11px;
+    color: #999;
+    line-height: 15px;
+}
+
+.with-tovar .tovar a {
+    font-size: 13px;
+}
+
+.with-tovar .tovar input {
+    position: absolute;
+    left: -15px;
+    top: 45px;
+}
+
+.with-tovar span {
+    font-size: 48px;
+    font-family: 'siemens_sansbold', sans-serif;
+    display: block;
+    float: left;
+    padding-top: 42px;
+    margin-right: 34px;
+}
+
+.with-tovar .tovar.first {
+    margin-left: 20px;
+}
+
+.with-tovar .tovar .price em {
+    display: inline;
+    font-size: 12px;
+    color: #000;
+    font-style: normal;
+}
+
+.with-tovar .tovar .price {
+    font-size: 16px;
+}
+
+.with-tovar .summ {
+    color: #000;
+    font-size: 25px;
+    padding-top: 42px;
+    position: relative;
+
+}
+
+.with-tovar .summ em {
+    font-style: normal;
+    font-size: 15px;
+
+}
+
+.with-tovar .tovar.last {
+    margin-right: 0;
+}
+
+.summ a.button.blue {
+    margin-right: 0;
+    position: absolute;
+    right: 0;
+    bottom: -95px;
+    width: 90px;
+}
+
+
+.may-be, .respondes {
+    border-top: 2px solid #d9d9d9;
+    padding-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.may-be .tovar{
+    margin-right: 25px;
+}
+
+.may-be .tovar.last{
+    margin-right: 0;
+}
+
+.may-be .tovar img{
+    display: block;
+    margin-bottom: 3px;
+    
+
+}
+
+.may-be .price{
+    font-size: 16px;
+    margin-bottom: 7px;
+    
+}
+.may-be .price em{
+    font-size: 12px;
+    font-style: normal;
+}
+
+.may-be em span{
+    color: #666;
+    display: block;
+    font-size: 11px;
+
+}
+
+.may-be a{
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+}
+.may-be em a{
+    font-size: 11px;
+
+}
+.may-be em{
+    line-height: 13px;
+    
+}
+
+.respondes .add-review{
+    margin-top: 20px;
+}
+
+#popup a.button.blue.add-cart{
+    width: 90px;
+    margin: 0;
+    float: right;
+    margin-right: 5px;
+}
+
+#popup.product {
+    width: 775px;
+}
+
+#popup.product .popup {
+    width: 745px;
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+#popup.product .popup .button{
+    width: 100px;
+}
+
+
+
+
+

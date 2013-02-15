@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JetMe</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" media="all" href="media/css/fonts.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="media/css/reset.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="media/css/style.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="media/css/profile.css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="media/js/jcarousellite_1.0.1.js"></script>
+    <script type="text/javascript" src="media/js/tiny.js"></script>
+    <script type="text/javascript" src="media/js/main.js"></script>
+</head>
+<body>
+<div id="container" class="orders">
+<div id="header" class="block profile">
+    <a class="logo mini" href="/"><img src="media/i/mini-logo.jpg" alt="Веб-маркет jetme"></a>
+
+    <div class="center">
+        <div class="hello">Здравствуйте, @login</div>
+    </div>
+    <div class="right">
+        <ul>
+            <li><a href="#">Выйти</a></li>
+            <li class="reg"><a href="#">Перейти в магазин</a></li>
+            <li><a href="#">Помощь <i class="arr-down"></i></a>
+                <ul>
+                    <li><a href="#">Вход на сайт</a></li>
+                    <li><a href="#">Вход</a></li>
+                    <li><a href="#">Способы доставки</a></li>
+                    <li><a href="#">Помощь</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+</div>
+<div id="main" class="block profile">
+<div id="sidebar" class="fll">
+
+
+    <ul id="menu">
+        <li class="active orders"><a href="#">Заказы <em>2</em></a></li>
+        <li><a href="#">Информация о партнере</a></li>
+        <li><a href="#">Разделы</a></li>
+        <li><a href="#">Товары</a></li>
+        <li><a href="#">Отзывы</a></li>
+        <li><a href="#">Документы</a></li>
+    </ul>
+
+</div>
+
+<div id="content">
+<div id="tabs">
+<div class="top">
+
+    <a class="add zakaz fll" href="#">Добавить заказ<i></i></a>
+
+    <div class="form-item flr">
+        <label>Заказов на странице</label>
+
+        <div class="select">
+            <div class="val">8</div>
+            <div class="circle"><i></i>
+                <ul class="list">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">7</a></li>
+                    <li><a href="#">8</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clr"></div>
+    </div>
+
+
+</div>
+
+<ul class="switchers">
+    <li class="active">Новые (3)</li>
+    <li>Сформированные (2)</li>
+    <li>Завершенные</li>
+    <li>Отмененные</li>
+    <li>Все</li>
+</ul>
+<div id="tab-area">
+
+<div class="contents">
+<table class="tab-change" border="0" cellspacing="0" cellpadding="0">
+<tr>
+    <th></th>
+    <th>ID</th>
+    <th>Статус заказа</th>
+    <th>Время готовности</th>
+    <th>Заказчик</th>
+    <th>Адрес партнера</th>
+    <th>Адрес доставки</th>
+    <th>Оплата</th>
+    <th>Партнер</th>
+    <th class="last">Состав заказа</th>
+</tr>
+<tr class="gray">
+    <td class="ch"><a href="#"><img src="media/i/ico_change.png" width="16" height="14"
+                                    alt=""></a></td>
+    <td class="id"><input type="text"></td>
+    <td class="status">
+        <div class="select">
+            <div class="val"></div>
+            <div class="over">
+                <div class="circle"><i></i>
+
+                </div>
+                <ul class="list">
+                    <li><a href="#">Доставляется</a></li>
+                    <li><a href="#">Доставлен</a></li>
+                    <li><a href="#">В обработке</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </td>
+    <td class="time-release"><input type="text"></td>
+    <td class="customer"><input type="text"></td>
+    <td class="adr-partner"><input type="text"></td>
+    <td class="adr-delivery"><input type="text"></td>
+    <td class="pay">
+        <div class="select">
+            <div class="val"></div>
+            <div class="over">
+                <div class="circle"><i></i>
+
+                </div>
+                <ul class="list">
+                    <li><a href="#">курьеру</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </td>
+    <td class="partner"><input type="text"></td>
+    <td class="consist last"><input type="text"></td>
+</tr>
+<tr>
+    <td class="ch"><label class="checkbox active" for="id_check4"><i></i><input type="checkbox"
+                                                                                id="id_check4"></label>
+    </td>
+    <td class="id"><a href="#">0000154</a></td>
+    <td class="status">
+        <div class="select">
+            <div class="val"></div>
+            <div class="over">
+                <div class="circle"><i></i>
+
+                </div>
+                <ul class="list">
+                    <li><a href="#">Доставляется</a></li>
+                    <li><a href="#">Доставлен</a></li>
+                    <li><a href="#">В обработке</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </td>
+    <td class="time-release"><input type="text" value="15:40 01.01.2014">
+        <a class="add courier" href="#">Назначить курьера<i></i></a>
+    </td>
+    <td class="customer">Иванов Иван Иванович<br>
+        Тел.: 8-8422-123-321<br>
+        id: 01312
+    </td>
+    <td class="adr-partner">ул. Интернациональная<br>
+        5 - 168
+    </td>
+    <td class="adr-delivery">ул. Интернациональная<br>
+        5 - 168
+    </td>
+    <td class="pay">
+        курьеру<br>
+        <a href="#">+ 200 руб.</a>
+    </td>
+    <td class="partner">м-н Рыболов<br>
+        на озере<br>
+        id: 00185
+    </td>
+    <td class="consist last">пицца моцарелла большая 1 шт,<br>
+        суши ямагири 1 порция<br>
+        <a href="#">на сумму: 1 900 руб.</a>
+    </td>
+</tr>
+<tr class="event">
+    <td class="ch"><label class="checkbox active" for="id_check5"><i></i><input type="checkbox"
+                                                                                id="id_check5"></label>
+    </td>
+    <td class="id"><a href="#">0000154</a></td>
+    <td class="status">
+        <div class="select">
+            <div class="val"></div>
+            <div class="over">
+                <div class="circle"><i></i>
+
+                </div>
+                <ul class="list">
+                    <li><a href="#">Доставляется</a></li>
+                    <li><a href="#">Доставлен</a></li>
+                    <li><a href="#">В обработке</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </td>
+    <td class="time-release"><input type="text" value="15:40 01.01.2014">
+        <a class="add courier" href="#">Назначить курьера<i></i></a>
+    </td>
+    <td class="customer">Иванов Иван Иванович<br>
+        Тел.: 8-8422-123-321<br>
+        id: 01312
+    </td>
+    <td class="adr-partner">ул. Интернациональная<br>
+        5 - 168
+    </td>
+    <td class="adr-delivery">ул. Интернациональная<br>
+        5 - 168
+    </td>
+    <td class="pay">
+        курьеру<br>
+        <a href="#">+ 200 руб.</a>
+    </td>
+    <td class="partner">м-н Рыболов<br>
+        на озере<br>
+        id: 00185
+    </td>
+    <td class="consist last">пицца моцарелла большая 1 шт,<br>
+        суши ямагири 1 порция<br>
+        <a href="#">на сумму: 1 900 руб.</a>
+    </td>
+</tr>
+<tr>
+    <td class="ch"><label class="checkbox active" for="id_check6"><i></i><input type="checkbox"
+                                                                                id="id_check6"></label>
+    </td>
+    <td class="id"><a href="#">0000154</a></td>
+    <td class="status">
+        <div class="select">
+            <div class="val"></div>
+            <div class="over">
+                <div class="circle"><i></i>
+
+                </div>
+                <ul class="list">
+                    <li><a href="#">Доставляется</a></li>
+                    <li><a href="#">Доставлен</a></li>
+                    <li><a href="#">В обработке</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </td>
+    <td class="time-release"><input type="text" value="15:40 01.01.2014">
+        <a class="add courier" href="#">Назначить курьера<i></i></a>
+    </td>
+    <td class="customer">Иванов Иван Иванович<br>
+        Тел.: 8-8422-123-321<br>
+        id: 01312
+    </td>
+    <td class="adr-partner">ул. Интернациональная<br>
+        5 - 168
+    </td>
+    <td class="adr-delivery">ул. Интернациональная<br>
+        5 - 168
+    </td>
+    <td class="pay">
+        курьеру<br>
+        <a href="#">+ 200 руб.</a>
+    </td>
+    <td class="partner">м-н Рыболов<br>
+        на озере<br>
+        id: 00185
+    </td>
+    <td class="consist last">пицца моцарелла большая 1 шт,<br>
+        суши ямагири 1 порция<br>
+        <a href="#">на сумму: 1 900 руб.</a>
+    </td>
+</tr>
+<tr class="event">
+    <td class="ch"><label class="checkbox active" for="id_check7"><i></i><input type="checkbox"
+                                                                                id="id_check7"></label>
+    </td>
+    <td class="id"><a href="#">0000154</a></td>
+    <td class="status">
+        <div class="select">
+            <div class="val"></div>
+            <div class="over">
+                <div class="circle"><i></i>
+
+                </div>
+                <ul class="list">
+                    <li><a href="#">Доставляется</a></li>
+                    <li><a href="#">Доставлен</a></li>
+                    <li><a href="#">В обработке</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </td>
+    <td class="time-release"><input type="text" value="15:40 01.01.2014">
+        <a class="add courier" href="#">Назначить курьера<i></i></a>
+    </td>
+    <td class="customer">Иванов Иван Иванович<br>
+        Тел.: 8-8422-123-321<br>
+        id: 01312
+    </td>
+    <td class="adr-partner">ул. Интернациональная<br>
+        5 - 168
+    </td>
+    <td class="adr-delivery">ул. Интернациональная<br>
+        5 - 168
+    </td>
+    <td class="pay">
+        курьеру<br>
+        <a href="#">+ 200 руб.</a>
+    </td>
+    <td class="partner">м-н Рыболов<br>
+        на озере<br>
+        id: 00185
+    </td>
+    <td class="consist last">пицца моцарелла большая 1 шт,<br>
+        суши ямагири 1 порция<br>
+        <a href="#">на сумму: 1 900 руб.</a>
+    </td>
+</tr>
+<tr>
+    <td class="ch"><label class="checkbox active" for="id_check8"><i></i><input type="checkbox"
+                                                                                id="id_check8"></label>
+    </td>
+    <td class="id"><a href="#">0000154</a></td>
+    <td class="status">
+        <div class="select">
+            <div class="val"></div>
+            <div class="over">
+                <div class="circle"><i></i>
+
+                </div>
+                <ul class="list">
+                    <li><a href="#">Доставляется</a></li>
+                    <li><a href="#">Доставлен</a></li>
+                    <li><a href="#">В обработке</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </td>
+    <td class="time-release"><input type="text" value="15:40 01.01.2014">
+        <a class="add courier" href="#">Назначить курьера<i></i></a>
+    </td>
+    <td class="customer">Иванов Иван Иванович<br>
+        Тел.: 8-8422-123-321<br>
+        id: 01312
+    </td>
+    <td class="adr-partner">ул. Интернациональная<br>
+        5 - 168
+    </td>
+    <td class="adr-delivery">ул. Интернациональная<br>
+        5 - 168
+    </td>
+    <td class="pay">
+        курьеру<br>
+        <a href="#">+ 200 руб.</a>
+    </td>
+    <td class="partner">м-н Рыболов<br>
+        на озере<br>
+        id: 00185
+    </td>
+    <td class="consist last">пицца моцарелла большая 1 шт,<br>
+        суши ямагири 1 порция<br>
+        <a href="#">на сумму: 1 900 руб.</a>
+    </td>
+</tr>
+<tr class="event">
+    <td class="ch"><label class="checkbox active" for="id_check9"><i></i><input type="checkbox"
+                                                                                id="id_check9"></label>
+    </td>
+    <td class="id"><a href="#">0000154</a></td>
+    <td class="status">
+        <div class="select">
+            <div class="val"></div>
+            <div class="over">
+                <div class="circle"><i></i>
+
+                </div>
+                <ul class="list">
+                    <li><a href="#">Доставляется</a></li>
+                    <li><a href="#">Доставлен</a></li>
+                    <li><a href="#">В обработке</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </td>
+    <td class="time-release"><input type="text" value="15:40 01.01.2014">
+        <a class="add courier" href="#">Назначить курьера<i></i></a>
+    </td>
+    <td class="customer">Иванов Иван Иванович<br>
+        Тел.: 8-8422-123-321<br>
+        id: 01312
+    </td>
+    <td class="adr-partner">ул. Интернациональная<br>
+        5 - 168
+    </td>
+    <td class="adr-delivery">ул. Интернациональная<br>
+        5 - 168
+    </td>
+    <td class="pay">
+        курьеру<br>
+        <a href="#">+ 200 руб.</a>
+    </td>
+    <td class="partner">м-н Рыболов<br>
+        на озере<br>
+        id: 00185
+    </td>
+    <td class="consist last">пицца моцарелла большая 1 шт,<br>
+        суши ямагири 1 порция<br>
+        <a href="#">на сумму: 1 900 руб.</a>
+    </td>
+</tr>
+<tr>
+    <td class="ch"><label class="checkbox active" for="id_check10"><i></i><input type="checkbox"
+                                                                                id="id_check10"></label>
+    </td>
+    <td class="id"><a href="#">0000154</a></td>
+    <td class="status">
+        <div class="select">
+            <div class="val"></div>
+            <div class="over">
+                <div class="circle"><i></i>
+
+                </div>
+                <ul class="list">
+                    <li><a href="#">Доставляется</a></li>
+                    <li><a href="#">Доставлен</a></li>
+                    <li><a href="#">В обработке</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </td>
+    <td class="time-release"><input type="text" value="15:40 01.01.2014">
+        <a class="add courier" href="#">Назначить курьера<i></i></a>
+    </td>
+    <td class="customer">Иванов Иван Иванович<br>
+        Тел.: 8-8422-123-321<br>
+        id: 01312
+    </td>
+    <td class="adr-partner">ул. Интернациональная<br>
+        5 - 168
+    </td>
+    <td class="adr-delivery">ул. Интернациональная<br>
+        5 - 168
+    </td>
+    <td class="pay">
+        курьеру<br>
+        <a href="#">+ 200 руб.</a>
+    </td>
+    <td class="partner">м-н Рыболов<br>
+        на озере<br>
+        id: 00185
+    </td>
+    <td class="consist last">пицца моцарелла большая 1 шт,<br>
+        суши ямагири 1 порция<br>
+        <a href="#">на сумму: 1 900 руб.</a>
+    </td>
+</tr>
+<tr class="event">
+    <td class="ch"><label class="checkbox active" for="id_check11"><i></i><input type="checkbox"
+                                                                                id="id_check11"></label>
+    </td>
+    <td class="id"><a href="#">0000154</a></td>
+    <td class="status">
+        <div class="select">
+            <div class="val"></div>
+            <div class="over">
+                <div class="circle"><i></i>
+
+                </div>
+                <ul class="list">
+                    <li><a href="#">Доставляется</a></li>
+                    <li><a href="#">Доставлен</a></li>
+                    <li><a href="#">В обработке</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </td>
+    <td class="time-release"><input type="text" value="15:40 01.01.2014">
+        <a class="add courier" href="#">Назначить курьера<i></i></a>
+    </td>
+    <td class="customer">Иванов Иван Иванович<br>
+        Тел.: 8-8422-123-321<br>
+        id: 01312
+    </td>
+    <td class="adr-partner">ул. Интернациональная<br>
+        5 - 168
+    </td>
+    <td class="adr-delivery">ул. Интернациональная<br>
+        5 - 168
+    </td>
+    <td class="pay">
+        курьеру<br>
+        <a href="#">+ 200 руб.</a>
+    </td>
+    <td class="partner">м-н Рыболов<br>
+        на озере<br>
+        id: 00185
+    </td>
+    <td class="consist last">пицца моцарелла большая 1 шт,<br>
+        суши ямагири 1 порция<br>
+        <a href="#">на сумму: 1 900 руб.</a>
+    </td>
+</tr>
+</table>
+
+
+<ul class="pager">
+    <li class="prev"><a href="#" class="noactive">Предыдущая</a></li>
+    <li class="active first"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li class="next"><a href="#">Следующая</a></li>
+</ul>
+
+
+</div>
+
+
+</div>
+
+<a class="add print flr" href="#">
+    Напечатать выделенные заказы <i></i>
+</a>
+<div class="clr"></div>
+
+</div>
+
+
+<div id="footer">
+    <div class="left">
+        <a href="#">Пользовательское соглашение</a><br>
+        &copy; 2012 Jetme, Inc. All Rights reserved.
+    </div>
+</div>
+
+
+</div>
+<div class="clr"></div>
+</div>
+
+
+</div>
+
+</body>
+</html>

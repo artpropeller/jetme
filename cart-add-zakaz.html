@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JetMe</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" media="all" href="media/css/fonts.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="media/css/reset.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="media/css/style.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="media/css/profile.css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="media/js/jcarousellite_1.0.1.js"></script>
+    <script type="text/javascript" src="media/js/tiny.js"></script>
+    <script type="text/javascript" src="media/js/main.js"></script>
+
+
+</head>
+<body>
+<div id="container">
+<div id="header" class="block">
+    <a class="logo" href="/"><img src="media/i/logo.jpg" alt="Веб-маркет jetme"></a>
+
+    <div class="center">
+        <div class="phone">Звоните: <strong>8-921-455-66-77</strong></div>
+        <div class="social">
+            <a class="fb" href="#"><i></i></a>
+            <a class="tw" href="#"><i></i></a>
+            <a class="vk" href="#"><i></i></a>
+            <a class="yt" href="#"><i></i></a>
+        </div>
+        <div class="clr"></div>
+        <div class="search">
+            <input type="text" placeholder="Поиск...">
+
+            <div class="select"><a href="#" class="drop">Везде <i class="arr-down"></i></a>
+                <ul class="list">
+                    <li><a href="#">Товары</a></li>
+                    <li><a href="#">Рецепты</a></li>
+                    <li><a href="#">Магазины</a></li>
+                </ul>
+            </div>
+            <a class="submit circle" href="#"><i></i></a>
+        </div>
+    </div>
+    <div class="right">
+        <ul>
+            <li><a href="#">Вход</a></li>
+            <li class="reg"><a href="#">Регистрация</a></li>
+            <li><a href="#">Помощь <i class="arr-down"></i></a>
+                <ul>
+                    <li><a href="#">Вход на сайт</a></li>
+                    <li><a href="#">Вход</a></li>
+                    <li><a href="#">Способы доставки</a></li>
+                    <li><a href="#">Помощь</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="clr"></div>
+        <a href="#" class="cart"><i></i> Корзина <span>(5)</span> 150 000 <em>руб.</em></a>
+    </div>
+</div>
+<div id="main" class="block">
+    <div id="sidebar" class="fll">
+        <div class="search">
+            <input type="text" placeholder="Поиск по каталогу">
+
+            <div class="circle"><i></i>
+                <ul class="list">
+                    <li><a href="#">Все</a></li>
+                    <li><a href="#">Магнит</a></li>
+                    <li><a href="#">Пятерочка</a></li>
+                    <li><a href="#">Гулливер</a></li>
+                    <li><a href="#">Эльдорадо</a></li>
+                    <li><a href="#">М-Видео</a></li>
+                    <li><a href="#">IKEA</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <ul id="menu">
+            <li><a href="#"><i></i>Товары для дачи и сада</a></li>
+            <li><a href="#"><i></i>Строительные материалы</a></li>
+            <li><a href="#"><i></i>Отделочные материалы</a></li>
+            <li><a href="#"><i></i>Напольные покрытия</a></li>
+            <li><a href="#"><i></i>Водоснабжение</a></li>
+            <li><a href="#"><i></i>Электротовары</a></li>
+            <li><a href="#"><i></i>Сувениры, игрушки</a></li>
+            <li><a href="#"><i></i>Посуда, текстиль</a></li>
+            <li><a href="#"><i></i>ОСАГО</a></li>
+        </ul>
+
+
+    </div>
+    <div id="content" class="add-tovars flr">
+
+
+        <h1>Корзина</h1>
+
+        <div class="order-item">
+
+            <div class="shop-order">
+                <img src="media/temp/logo-order.jpg" alt="">
+
+                <h2 class="fll">Ваш заказ в магазине "Магнит"</h2>
+            </div>
+            <table>
+                <thead>
+                <tr>
+                    <th class="photo">Товар</th>
+                    <th class="name">Наименование товара</th>
+                    <th class="price">Цена</th>
+                    <th class="qty">Кол-во</th>
+                    <th class="sum">Сумма, Р.</th>
+                    <th class="remove"></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="photo">
+                        <figure><img src="media/temp/cart-1.jpg" alt=""></figure>
+                    </td>
+                    <td class="name">
+                        <a href="#">Овсяные хлопья</a><br>
+                        Размер: 45, цвет: серый
+                    </td>
+                    <td class="price">21 940 р.</td>
+                    <td class="qty">
+                        <input type="text" value="1">
+                    </td>
+                    <td class="sum">21 940 р.</td>
+                    <td class="remove"><a href="#" class="remove"><i></i>Удалить</a></td>
+                </tr>
+
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="6" class="total">
+                        <a class="button fll" href="#">Пересчитать</a>
+                        <a class="button flr" href="#">Оформить заказ</a>
+
+
+                        <div>ИТОГО (без стоимости доставки): <strong>5 400 р.</strong></div>
+
+
+                    </td>
+                </tr>
+                </tfoot>
+            </table>
+
+
+        </div>
+        <div id="tab-area" class="no-border">
+            <h3>Информация о заказчике</h3>
+
+            <div class="form-info">
+                <div class="form-item">
+                    <label for="inp1">Фамилия</label>
+                    <input type="text" id="inp1">
+                </div>
+                <div class="form-item">
+                    <label for="inp2">Имя</label>
+                    <input type="text" id="inp2">
+                </div>
+                <div class="form-item">
+                    <label for="inp3">Отчество</label>
+                    <input type="text" id="inp3">
+                </div>
+                <div class="form-item">
+                    <label for="inp4">Электронная почта</label>
+                    <input type="text" id="inp4">
+                </div>
+                <div class="form-item">
+                    <label for="inp5">Телефон</label>
+                    <input type="text" id="inp5">
+                </div>
+            </div>
+
+
+            <h3>Данные для доставки</h3>
+
+            <div class="form-info">
+
+                <div class="form-item">
+                    <label>Способ доставки</label>
+
+                    <div class="radio-set">
+                        <label for="rad1" class="radio">курьером<i></i><input type="radio" id="rad1"></label>
+                        <label for="rad2" class="radio">самовывоз<i></i><input type="radio" id="rad2"></label>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+
+
+                <div class="form-item">
+                    <label>Стоимость доставки</label>
+
+                    <div class="radio-set">
+                        <label for="rad3" class="radio">по городу<i></i><input type="radio" id="rad3"></label>
+                        <label for="rad4" class="radio">по области<i></i><input type="radio" id="rad4"></label>
+                        <label for="rad5" class="radio fll">другое<i></i><input type="radio" id="rad5"></label>
+                        <input type="text" value="3000">
+                    </div>
+                </div>
+
+                <div class="form-item choice">
+                    <label>Время доставки</label>
+
+                    <div class="select">
+                        <div class="val">с 10 до 12</div>
+                        <div class="circle"><i></i>
+                            <ul class="list">
+                                <li><a href="#">с 10 до 12</a></li>
+                                <li><a href="#">с 10 до 12</a></li>
+                                <li><a href="#">с 10 до 12</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+
+                <div class="form-item">
+                    <label>Местоположение</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-item">
+                    <label>Адрес доставки</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="form-item">
+                    <label>Комментарий
+                        покупателя к заказу</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+
+
+            </div>
+
+
+            <div class="itogo">
+                Товар <strong>15 000 руб.</strong> + доставка <strong>200 руб.</strong> = <strong class="big">15 200
+                руб.</strong>
+            </div>
+            <a class="button confirm" href="#">Подтвердить заказ</a>
+        </div>
+
+
+    </div>
+    <div class="clr"></div>
+</div>
+
+<div id="bottom" class="block">
+    <ul>
+        <li>Магазин
+            <ul>
+                <li><a href="#">О Магазине</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Обратная связь</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </li>
+        <li>Покупка
+            <ul>
+                <li><a href="#">Заказ товара</a></li>
+                <li><a href="#">Оплата</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Возврат товара</a></li>
+                <li><a href="#">Гарантии магазина</a></li>
+            </ul>
+        </li>
+        <li>Партнеры
+            <ul>
+                <li><a href="#">Наши партнеры</a></li>
+                <li><a href="#">Стать партнером</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div class="clr"></div>
+    <div id="footer">
+        <div class="left fll">
+            <a href="#">Пользовательское соглашение</a><br>
+            &copy; 2012 Jetme, Inc. All Rights reserved.
+        </div>
+        <div class="right flr">
+            <a href="#">Разработка сайта</a><br>
+            Jetpeople
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
