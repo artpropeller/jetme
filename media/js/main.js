@@ -56,6 +56,14 @@ $(function(){
         $('#partners .s-next').hover();
     },1000);
 
+    $('.tab-change td').each(function(i,e){
+        $(this).css('z-index',99999-i);
+    });
+
+    $('.form-item').each(function(i,e){
+            $(this).css('z-index',99999-i);
+      });
+
     $('.container-slide').jCarouselLite({
         start:0,
         visible:1,

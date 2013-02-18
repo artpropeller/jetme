@@ -37,19 +37,122 @@
     position: relative;
 }
 
-#slider .nav {
-    bottom: 85px
+#menu ul a {
+    background: url("../i/sprite.png") no-repeat -250px -137px;
+}
+
+#menu ul a:hover {
+    background-position: -250px -137px;
+}
+
+#bottom {
+    float: none;
+    overflow: auto;
+}
+
+#container {
+    overflow: hidden;
+}
+
+#footer a {
+    position: relative;
+}
+
+#content {
+    overflow: hidden;
+}
+
+.shop {
+    overflow: visible;
+}
+
+#menu ul ul a {
+    background-position: -250px -185px;
+}
+
+.select .val {
+    float: left;
+}
+
+table td {
+    z-index: 1;
 
 }
 
-h1 {
-    color: #000;
-    text-transform: uppercase;
-    background: url("../i/sprite.png") no-repeat -225px -225px;
-    font-size: 20px;
-    line-height: 24px;
-    padding: 7px 0 21px 42px;
-    font-family: 'siemens_sansbold', sans-serif;
+.select:hover {
+    z-index: 100;
+    position: relative;
 }
 
-    }
+.select .over {
+    float: right;
+}
+
+#product  input[type=text] {
+    float: left;
+    display: block;
+}
+
+#product .form-item .select .circle {
+    margin-top: -3px;
+}
+
+.review .item .text {
+    margin-top: 2px;
+    border-top: 1px solid #ccc;
+    zoom: 1;
+}
+
+.select.small .circle i {
+    margin-right: 10px;
+
+}
+
+#tab-area .character .set {
+    padding-top: 10px;
+}
+
+.input-add {
+    overflow: visible;
+}
+
+.input-add .circle {
+    z-index: 10;
+    position: relative;
+    top: -28px;
+
+}
+
+.input-add input {
+    float: left;
+    width: 200px;
+}
+
+.add.change {
+    width: 235px;
+}
+
+#tab-area .sale .form-item {
+    padding: 7px 0 7px 23px;
+}
+
+.form-item.img .image-item {
+    display: inline;
+    margin-right: 5px;
+}
+
+.personal-form .add{
+    width: 235px;
+}
+
+.block-50{
+    width: 49%;
+}
+
+.product #product .actions a.tofavorite{
+    margin-right: 100px;
+}
+
+.prices .new{
+    line-height: 28px;
+}
