@@ -1,0 +1,8 @@
+.pager li.next a {
+    padding-right: 30px;
+    background: url("../i/sprite.png") no-repeat -49px -265px;
+}
+
+.search .select .list {
+    width: 79px;
+}

@@ -52,6 +52,10 @@ $(function(){
         btnNext:'#partners .s-next'
     });
 
+    setTimeout(function(){
+        $('#partners .s-next').hover();
+    },1000);
+
     $('.container-slide').jCarouselLite({
         start:0,
         visible:1,

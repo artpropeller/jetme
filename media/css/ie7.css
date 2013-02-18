@@ -1,0 +1,55 @@
+.pager li {
+    display: inline;
+}
+
+.search {
+    z-index: 1;
+}
+
+#menu {
+    z-index: 0;
+}
+
+#header {
+    z-index: 1;
+    position: relative;
+
+}
+
+#content {
+    z-index: 0;
+}
+
+#carousel li {
+    zoom: 1;
+    display: inline;
+}
+
+#carousel {
+    /*float: none;*/
+
+}
+
+#carousel img {
+    /*background: #ff0000;*/
+    display: block;
+    float: left;
+    position: relative;
+}
+
+#slider .nav {
+    bottom: 85px
+
+}
+
+h1 {
+    color: #000;
+    text-transform: uppercase;
+    background: url("../i/sprite.png") no-repeat -225px -225px;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 7px 0 21px 42px;
+    font-family: 'siemens_sansbold', sans-serif;
+}
+
+    }
