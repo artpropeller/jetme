@@ -10,6 +10,7 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="media/js/jcarousellite_1.0.1.js"></script>
     <script type="text/javascript" src="media/js/tiny.js"></script>
+    <script type="text/javascript" src="media/js/jquery.fancybox.pack.js"></script>
     <script type="text/javascript" src="media/js/main.js"></script>
     <!--[if lt IE 10]>
     <link type="text/css" rel="stylesheet" media="all" href="media/css/ie.css"/>
@@ -58,22 +59,6 @@
                 <li><a href="#">Документы</a></li>
             </ul>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
 
 
@@ -95,10 +80,10 @@
                         <h3>Характеристики</h3>
                         <a class="add new-char" href="#">Добавить  новое свойство<i></i></a>
 
-                        <div class="character">
+                        <div class="characters"><div class="character">
 
                             <div class="name">Название свойства</div>
-                            <input class="megabig" type="text" value="Материал подков"><a class="delete" href="#"><i></i></a>
+                            <input class="megabig" type="text" value="Материал подков"><a class="delete del-char" href="#"><i></i></a>
                             <div class="clr"></div>
                             <div class="set">
                                 <div class="cursor"><i></i></div>
@@ -164,7 +149,7 @@
                         <div class="character last">
 
                             <div class="name">Название свойства</div>
-                            <input class="megabig" type="text" value="Материал подков"><a class="delete" href="#"><i></i></a>
+                            <input class="megabig" type="text" value="Материал подков"><a class="delete del-char" href="#"><i></i></a>
                             <div class="clr"></div>
                             <div class="set">
                                 <div class="cursor"><i></i></div>
@@ -226,9 +211,7 @@
                             <a class="add flr" href="#">Добавить  новое свойство<i></i></a>
                             <div class="clr"></div>
                         </div>
-
-
-
+                        </div>
 
 
                     </div>
@@ -253,6 +236,50 @@
 
 
 </div>
+
+<div class="character empty" style="display: none;">
+
+    <div class="name">Название свойства</div>
+    <input class="megabig" type="text"><a class="delete del-char" href="#"><i></i></a>
+    <div class="clr"></div>
+    <div class="set">
+        <div class="cursor"><i></i></div>
+        <div class="label fll">Значение</div>
+        <div class="label flr">Модификаторы цены</div>
+        <div class="clr"></div>
+
+    </div>
+
+    <a class="add flr" href="#">Добавить  новое свойство<i></i></a>
+    <div class="clr"></div>
+
+</div>
+
+<div class="value empty" style="display: none;">
+    <input class="normal" type="text">
+    <div class="select small">
+        <div class="val"></div>
+        <div class="circle"><i></i>
+            <ul class="list">
+                <li><a href="#">+</a></li>
+                <li><a href="#">-</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="select small">
+        <div class="val"></div>
+        <div class="circle"><i></i>
+            <ul class="list">
+                <li><a href="#">руб.</a></li>
+                <li><a href="#">%</a></li>
+            </ul>
+        </div>
+    </div>
+    <input class="small" type="text">
+    <a class="delete" href="#"><i></i></a>
+    <div class="clr"></div>
+</div>
+
 
 </body>
 </html>

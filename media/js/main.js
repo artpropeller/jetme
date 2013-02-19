@@ -96,10 +96,87 @@ $(function(){
         $(this).parent().toggleClass('active');
     });
 
+    $('label.radio input').change(function(){
+        $(this).parents('.radio-set').find('label').removeClass('active');
+        $(this).parent().toggleClass('active');
+    });
+
     $('.fancy').fancybox({
         padding:0,
         margin:0,
         fitToView:false
+    });
+
+
+    $('.select .list a').live('click', function(){
+        $(this).parents('.select').find('.val').text($(this).text());
+        return false;
+    });
+
+//    $('').click(function(){
+//        return false;
+//    });
+
+    $('.order-item .remove').click(function(){
+        $(this).parents('tr').remove();
+        return false;
+    });
+
+    $('.recipe .remove').click(function(){
+        $(this).parents('.recipe').remove();
+        return false;
+    });
+
+    $('a.new-char').click(function(){
+        var newchar = $('.character.empty').clone().removeClass('empty').addClass('last');
+        $('.character:not(".empty")').last().removeClass('last');
+        $('.characters').append(newchar);
+        $('.character.last').show(0);
+        return false;
+    });
+
+    $('.character .del-char').live('click', function(){
+        $(this).parents('.character').remove();
+        $('.character:not(".empty")').last().addClass('last');
+        return false;
+    });
+
+    $('.character .add').live('click', function(){
+        var newval = $('.value.empty').clone().removeClass('empty');
+        $(this).parents('.character').find('.set').append(newval);
+        newval.show(0);
+        return false;
+    });
+
+    $('.character .set .delete').live('click', function(){
+        $(this).parents('.value').remove();
+        return false;
+    });
+
+    $('.image-item .delete').live('click', function(){
+        $(this).parent().remove();
+        return false;
+    });
+
+    $('.product-item .delete').live('click', function(){
+        $(this).parent().remove();
+        return false;
+    });
+
+    $('.add.parameter').live('click', function(){
+        var newval = $('.form-item.empty').clone().removeClass('empty').show(0);
+        $(this).before(newval);
+        return false;
+    });
+
+    $('.parameters .delete').live('click', function(){
+        $(this).parent().remove();
+        return false;
+    });
+
+    $('.tab .delete').live('click', function(){
+        $(this).parents('tr').remove();
+        return false;
     });
 
 

@@ -181,7 +181,7 @@ i, .social a, .circle, .buy {
     font-size: 11px;
     display: block;
     width: 295px;
-    margin: 8px 0 0 15px;
+    margin: 4px 0 0 15px;
     float: left;
 }
 
@@ -2072,7 +2072,7 @@ a.button.add-recipe {
 }
 
 #tab-area label.radio.active i {
-    background-position: -200px -184px;
+    background-position: -200px -183px;
 
 }
 

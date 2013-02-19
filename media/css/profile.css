@@ -554,6 +554,7 @@ a.play {
 
 #tab-area .main-image {
     float: left;
+    width: 235px;
 }
 
 #tab-area .main-image .image-item {
@@ -1128,8 +1129,9 @@ a.play {
 
 }
 
-#container.orders  .tab-change .gray .select .over .list{
-    z-index: 200;
+#container.orders  .tab-change .gray .select .val {
+    margin-right: -30px;
+    overflow: hidden;
 }
 
 #container.orders  .tab-change .gray .select .over .circle{
